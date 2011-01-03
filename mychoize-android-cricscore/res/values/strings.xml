@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">MyChoize CricScore</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_exit">Are you sure want to exit?</string>
+    <string name="cric_score">CricScore</string>
+    <string name="developing">Developing this page</string>
+    <string name="every_over">Every over</string>
+    <string name="every5_min">Every 5 minutes</string>
+    <string name="every5_over">Every 5 overs</string>
+    <string name="exit">Exit</string>
+    <string name="high">High</string>
+	<string name="hello">Hello World, Welcome to CricScore!</string>
+    <string name="help">Help</string>
+	<string name="help_link">http://mychoize.com/A/CricScore/index.htm</string>
+	<string name="hide">Hide</string>
+    <string name="info">Info</string>
+    <string name="live">Live</string>
+	<string name="live_score">Live Score</string>
+	<string name="loading3">Loading...</string>
+    <string name="low">Low</string>
+	<string name="matches">Matches</string>
+    <string name="meagre">meagre</string>
+	<string name="medium">Medium</string>
+	<string name="no">No</string>
+	<string name="notify">Notify</string>
+	<string name="notify_yes">Notify turned on</string>
+	<string name="notify_no">Notify turned off</string>
+	<string name="notify_enable">Enable Notify to change</string>
+	<string name="options">Options</string>
+	<string name="runs_scored">Runs Scored</string>
+	<string name="score_update">Score Update</string>
+	<string name="score_update_changed">Score Update Changed</string>
+	<string name="str_over">5</string>
+	<string name="toast">Toast</string>
+	<string name="toast_yes">Toast turned on</string>
+	<string name="toast_no">Toast turned off</string>
+	<string name="very_low">Very Low</string>
+	<string name="vs">vs</string>
+	<string name="wicket_fall">Wicket Fall</string>
+	<string name="yes">Yes</string>
+	
+	
+	<string name="local_service_created">local service created</string>
+	<string name="local_service_started">local service started</string>
+	<string name="local_service_stopped">local service stopped</string>
+	<string name="local_service_connected">local service connected</string>
+	<string name="local_service_disconnected">local service disconnected</string>
+	<string name="local_service_label">MyChoize CricScore</string>
+	
+	<string name="dummy_team1">England</string>
+	<string name="dummy_team2">India</string>
+	<string name="dummy_t1s1">200/10</string>
+	<string name="dummy_t1s2">100/10</string>
+	<string name="dummy_t2s1">100/10</string>
+	<string name="dummy_t2s2">50/5</string>
+	
+	<string name="dummy_team">Ind</string>
+	<string name="dummy_runs">50/5</string>
+	<string name="dummy_overs">20.1</string>
+	
+	<string name="bat1">Sachin Tendulkar</string>
+	<string name="bat1score">20</string>
+	<string name="bat2">Rahul Dravid</string>
+	<string name="bat2score">30</string>
+	<string name="blowler">Ian Botham</string>
+	<string name="blowlerEco">2/30</string>
+	<string name="match_status">Match Stumps</string>
+	
+	
+	<color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="white">#ffffff</color>
+    
+    <dimen name="big_text">20px</dimen>
+    <dimen name="normal_text">16px</dimen>
+    <dimen name="medium_text">14px</dimen>
+    <dimen name="large_text">30px</dimen>
+    <dimen name="small_text">10px</dimen>
+    <dimen name="small_padding">5px</dimen>
+    <dimen name="medium_padding">5dp</dimen>
+    <dimen name="hr_dimen">1dp</dimen>
+    <dimen name="hr_dimen3">3dp</dimen>
+    
+    
+    <string-array name="update_freq">
+        <item>Live</item>
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+        <item>Very Low</item>
+        <item>Meagre</item>
+    </string-array>
+
+</resources>
