@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:stretchColumns="1"
+	android:scrollbars="vertical" android:background="@color/gray"
+	android:gravity="top" >
+
+	<TableRow android:background="@color/black">
+		<TextView android:textStyle="bold" android:text="@string/notify"
+			android:textSize="@dimen/big_text" android:layout_column="1" />
+		<CheckBox android:id="@+id/notify_check" android:text="@string/yes"
+			android:textColor="@color/gray" android:textSize="@dimen/big_text"
+			android:paddingLeft="40dp" android:checked="true"
+			android:minWidth="84dp" />
+	</TableRow>
+	
+	<CheckBox android:id="@+id/notify_every5_over" android:text="@string/every5_over"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	<CheckBox android:id="@+id/notify_wicket_fall" android:text="@string/wicket_fall"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	
+	<TableRow android:background="@color/black">
+		<TextView android:textStyle="bold" android:text="@string/toast"
+			android:textSize="@dimen/big_text" android:layout_column="1" />
+		<CheckBox android:id="@+id/toast_check" android:text="@string/yes"
+			android:textColor="@color/gray" android:textSize="@dimen/big_text"
+			android:paddingLeft="40dp" android:checked="true" />
+	</TableRow>
+	
+	<CheckBox android:id="@+id/toast_every5_min" android:text="@string/every5_min"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	<CheckBox android:id="@+id/toast_every_over" android:text="@string/every_over"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	<CheckBox android:id="@+id/toast_wicket_fall" android:text="@string/wicket_fall"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	<CheckBox android:id="@+id/toast_runs_scored" android:text="@string/runs_scored"
+		android:textColor="@color/white" android:textSize="@dimen/normal_text"
+		android:paddingLeft="40dp" android:checked="true" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textStyle="bold"
+		android:text="@string/score_update" android:textSize="@dimen/big_text"
+		android:background="@color/black" />
+
+	<Spinner android:id="@+id/Spinner01" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:drawSelectorOnTop="true"
+		android:prompt="@string/score_update" android:entries="@array/update_freq" />
+</TableLayout>
