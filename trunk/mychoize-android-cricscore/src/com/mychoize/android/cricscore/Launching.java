@@ -151,6 +151,7 @@ public class Launching extends Activity {
 			alertAndClose();
 			return true;
 		default:
+			
 			return super.onOptionsItemSelected(item);
 		}
 	}
