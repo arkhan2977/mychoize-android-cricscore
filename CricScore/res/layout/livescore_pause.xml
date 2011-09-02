@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:scrollbars="vertical" android:background="@color/gray"
+	android:gravity="top" >
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/big_text" 
+		android:padding="@dimen/medium_padding"
+		android:id="@+id/title" 
+		android:gravity="center"
+		android:textColor="@color/black"
+		android:background="@color/white"
+		android:text="@string/title_val"
+        android:ellipsize="marquee" 
+        android:marqueeRepeatLimit="3"
+        android:scrollHorizontally="true" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true" 
+        android:singleLine="true"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@color/black"
+		android:textColor="@color/white" 
+		android:text="@string/match_status" 
+		android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center_horizontal"
+		android:id="@+id/game_name"
+		/>
+		
+		<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@color/black"
+		android:textColor="@color/white" 
+		android:text="@string/match_status" 
+		android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center_horizontal"
+		android:id="@+id/place"
+		/>
+		
+		<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@color/black"
+		android:textColor="@color/white" 
+		android:text="@string/match_status" 
+		android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center_horizontal"
+		android:id="@+id/date"
+		/>
+		
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:textColor="@color/white" 
+		android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center"
+		android:id="@+id/last_update" />
+	
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	
+</TableLayout>

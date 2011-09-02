@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:scrollbars="vertical" android:background="@color/gray"
+	android:gravity="top" >
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/big_text" 
+		android:padding="@dimen/medium_padding"
+		android:id="@+id/title" 
+		android:gravity="center"
+		android:textColor="@color/black"
+		android:background="@color/white"
+		android:text="@string/title_val"
+        android:ellipsize="marquee" 
+        android:marqueeRepeatLimit="3"
+        android:scrollHorizontally="true" 
+        android:focusable="true" 
+        android:focusableInTouchMode="true" 
+        android:singleLine="true"
+		/>
+	
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:gravity="top" android:stretchColumns="1">
+		<TableRow>
+		<TextView android:text="@string/dummy_team1" android:layout_column="1"
+		android:textSize="@dimen/normal_text" android:textColor="@color/white"
+		android:padding="@dimen/medium_padding" android:id="@+id/team11"/>
+		<TextView android:text="@string/dummy_t1s1" android:textSize="@dimen/normal_text" 
+		android:textColor="@color/white" android:padding="@dimen/medium_padding" android:id="@+id/team1s1"/>
+		<TextView android:text="@string/dummy_t1s2" android:textSize="@dimen/normal_text" 
+		android:textColor="@color/white" android:padding="@dimen/medium_padding" android:id="@+id/team1s2"/>
+		</TableRow>
+		<TableRow>
+		<TextView android:text="@string/dummy_team2" android:layout_column="1"
+		android:textSize="@dimen/normal_text" 
+		android:textColor="@color/white" android:padding="@dimen/medium_padding" android:id="@+id/team21"/>
+		<TextView android:text="@string/dummy_t2s1" android:textSize="@dimen/normal_text" 
+		android:textColor="@color/white" android:padding="@dimen/medium_padding" android:id="@+id/team2s1"/>
+		<TextView android:text="@string/dummy_t2s2" 
+		android:textSize="@dimen/normal_text" android:id="@+id/team2s2"
+		android:textColor="@color/white" android:padding="@dimen/medium_padding"/>
+		
+		</TableRow>
+	</TableLayout>
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/white"
+		android:gravity="top" android:stretchColumns="1"
+		android:id="@+id/clickWebLink"
+		>
+		<TableRow>
+		<TextView android:textColor="@color/black" android:text="@string/dummy_team" android:id="@+id/teamshort"
+			android:textSize="@dimen/large_text" android:layout_column="1" android:padding="@dimen/medium_padding"/>
+		<TextView android:textColor="@color/black" android:text="@string/dummy_runs" android:id="@+id/teamruns"
+			android:textSize="@dimen/large_text" android:padding="@dimen/medium_padding"/>
+		<TextView android:textColor="@color/black" android:text="@string/dummy_overs" android:id="@+id/teamovers"
+			android:textSize="@dimen/normal_text" android:padding="@dimen/medium_padding"/>
+		</TableRow>
+	</TableLayout>
+	
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:gravity="top" android:stretchColumns="1">
+		<TableRow>
+		<TextView android:textColor="@color/white" android:text="@string/bat1" android:id="@+id/bat1" 
+			android:textSize="@dimen/normal_text" android:layout_column="1" />
+		<TextView android:textColor="@color/white" android:text="@string/bat1score" android:id="@+id/bat1Score"
+			android:textSize="@dimen/normal_text" android:padding="@dimen/medium_padding"/>
+		</TableRow>
+		<TableRow>
+		<TextView android:textColor="@color/white" android:text="@string/bat2" android:id="@+id/bat2" 
+			android:textSize="@dimen/normal_text" android:layout_column="1"/>
+		<TextView android:textColor="@color/white" android:text="@string/bat2score"  android:id="@+id/bat2Score"
+			android:textSize="@dimen/normal_text" android:padding="@dimen/medium_padding"/>
+		</TableRow>
+		<TableRow>
+		<TextView android:textColor="@color/white" android:text="@string/blowler"  android:id="@+id/blower"
+			android:textSize="@dimen/normal_text" android:layout_column="1"/>
+		<TextView android:textColor="@color/white" android:text="@string/blowlerEco"  android:id="@+id/blowerEco"
+			android:textSize="@dimen/normal_text" android:padding="@dimen/medium_padding"/>
+		</TableRow>
+	</TableLayout>
+	
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:textColor="@color/white" 
+		android:text="@string/match_status" android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center"
+		android:id="@+id/last_update" />
+	
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<View android:layout_height="@dimen/hr_dimen" android:background="@color/white" />
+	<View android:layout_height="@dimen/hr_dimen3" android:background="@color/black" />
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@color/black"
+		android:textColor="@color/white" 
+		android:text="@string/match_status" android:textSize="@dimen/normal_text" 
+		android:padding="@dimen/medium_padding" 
+		android:gravity="center"
+		android:id="@+id/match_status" />
+</TableLayout>
+

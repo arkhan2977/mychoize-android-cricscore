@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mychoize.android.cricscore.app"
+      android:versionName="@string/info_version_no" android:versionCode="7">
+    <application android:icon="@drawable/icon" android:label="@string/title_app_name" android:name=".CricScoreApplication">
+        <activity android:name=".Launching"
+                  android:label="@string/title_match_list" android:multiprocess="false"  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Info" android:label="@string/title_info"></activity>
+        <activity android:name=".activity.SmsFeature" android:label="@string/title_sms_feature"></activity>
+        <activity android:name=".LiveScore" android:label="@string/title_live_score" android:launchMode="singleTask"></activity>
+        <activity android:name=".activity.UserPreference" android:label="@string/title_user_preference"></activity>
+        
+        <service android:name=".MatchUpdateService" android:enabled="true"></service>
+        <service android:name=".ScoreUpdateService" android:enabled="true">
+        	<intent-filter>
+        		<action android:name="com.mychoize.android.cricscore.app.START_UPDATE" />
+                <action android:name="com.mychoize.android.cricscore.app.STOP_UPDATE" />
+                <action android:name="com.mychoize.android.cricscore.app.UPDATE_VALUES" />
+            </intent-filter>
+        </service>
+    </application>
+
+	<uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+	
+</manifest> 

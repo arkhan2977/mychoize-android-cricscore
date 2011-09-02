@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="cancel">Cancel</string>
+    <string name="confirm_exit">Are you sure want to exit?</string>
+    <string name="cric_score">CricScore</string>
+    <string name="data_error">OOPS! Something went wrong.</string>
+    
+    
+    <string name="error_title_nodata">No Internet</string>
+    <string name="error_msg_nodata">Unable to get match details. Make sure you have working Internet connection before launching the application again.</string>
+    <string name="error_title_nomatch">No Matches</string>
+    <string name="error_msg_nomatch">Currently there is no match running.</string>
+    <string name="error_title_apperror">App Error</string>
+    <string name="error_msg_apperror">Something went wrong in processing.</string>
+    <string name="error_title_nosupport">Version not supported</string>
+    <string name="error_msg_nosupport">Your version is out dated and not supported. Please download the lastest version from <b>MyChoize.com</b></string>
+    
+    <string name="every_over">Every over</string>
+    <string name="every5_min">Every 5 minutes</string>
+    <string name="every5_over">Every 5 overs</string>
+    <string name="exit">Exit</string>
+    <string name="internet">View</string>
+    <string name="reload">Reload</string>
+    <string name="share">Share</string>
+	<string name="hide">Hide</string>
+	<string name="add">Add</string>
+	<string name="feedback">Feedback</string>
+	<string name="clear">Clear All</string>
+	<string name="sms">Auto SMS</string>
+    
+    <string name="info">Info</string>
+    <string name="info_version">App Version</string>
+    <string name="info_version_no">1.3.1</string>
+    <string name="info_version_code">6</string>
+    <string name="info_release">Released on</string>
+    <string name="info_release_date">24 July, 2011</string>
+    <string name="info_total">Overall</string>
+    <string name="info_session">Current Session</string>
+    <string name="info_request">No of Requests</string>
+    <string name="info_usage">Internet Usage</string>    
+    <string name="info_about">About</string>
+    <string name="info_about_twitter">Follow on Twitter</string>
+    <string name="info_about_twitter_id">\@MyChoize</string>
+    <string name="info_about_twitter_link">http://twitter.com/#!/mychoize</string>
+    
+    <string name="invalid_match">Match Details not available anymore</string>
+	<string name="loading3">Loading...</string>	
+	<string name="no">No</string>
+	<string name="notify">Notify</string>
+	<string name="notify_yes">Notify turned on</string>
+	<string name="notify_no">Notify turned off</string>
+	<string name="notify_enable">Enable Notify to change</string>
+	<string name="options">Options</string>
+	<string name="ok">Ok</string>
+	<string name="runs_scored">Runs Scored</string>
+	<string name="score_update">Score Update</string>
+	<string name="score_update_changed">Score Update Changed</string>
+	<string name="str_over">5</string>
+	<string name="title_val">Title</string>
+	<string name="title_app_name">MyChoize CricScore</string>
+	<string name="title_live_score">MyChoize CricScore | Live</string>
+	<string name="title_options">MyChoize CricScore | Options</string>
+	<string name="title_info">MyChoize CricScore | Info</string>
+	<string name="title_match_list">MyChoize CricScore</string>
+	<string name="title_user_preference">MyChoize CricScore |Preference</string>
+	<string name="title_sms_feature">MyChoize CricScore | Auto SMS</string>
+	<string name="toast">Toast</string>
+	<string name="toast_yes">Toast turned on</string>
+	<string name="toast_no">Toast turned off</string>
+	<string name="toast_update">Match List Updated</string>
+	<string name="very_low">Very Low</string>
+	<string name="vs">vs</string>
+	<string name="wicket_fall">Wicket Fall</string>
+	<string name="yes">Yes</string>
+
+	<string name="dummy_team1"></string>
+	<string name="dummy_team2"></string>
+	<string name="dummy_t1s1"></string>
+	<string name="dummy_t1s2"></string>
+	<string name="dummy_t2s1"></string>
+	<string name="dummy_t2s2"></string>
+	
+	<string name="dummy_team"></string>
+	<string name="dummy_runs"></string>
+	<string name="dummy_overs"></string>
+	
+	<string name="bat1"></string>
+	<string name="bat1score"></string>
+	<string name="bat2"></string>
+	<string name="bat2score"></string>
+	<string name="blowler"></string>
+	<string name="blowlerEco"></string>
+	<string name="match_status">Match Stumps</string>
+	
+	
+	<color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="white">#ffffff</color>
+    
+    <dimen name="big_text">20px</dimen>
+    <dimen name="normal_text">16px</dimen>
+    <dimen name="medium_text">14px</dimen>
+    <dimen name="large_text">30px</dimen>
+    <dimen name="small_text">10px</dimen>
+    <dimen name="small_padding">5px</dimen>
+    <dimen name="medium_padding">5dp</dimen>
+    <dimen name="big_padding">10dp</dimen>
+    <dimen name="hr_dimen">1dp</dimen>
+    <dimen name="hr_dimen3">3dp</dimen>
+    
+    
+    <string-array name="update_freq">
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="update_freq_time">
+    	<item>10000</item>
+    	<item>20000</item>
+    	<item>30000</item>
+    	<item>60000</item>
+    	<item>120000</item>
+    	<item>300000</item>
+    </string-array>
+	<string-array name="sms_update">
+        <item>Every Ball</item>
+        <item>Runs Scored</item>
+        <item>Every Over</item>
+        <item>Wicket Fall</item>
+    </string-array>
+    <string-array name="sms_update_mode">
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:id="@+id/listItem" android:background="@color/black"
+	android:padding="@dimen/medium_padding">
+
+	<TextView android:id="@+id/Name" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="left"
+		android:layout_alignLeft="@id/listItem" android:textSize="@dimen/normal_text"
+		android:textColor="@color/white" />
+
+	<TextView android:id="@+id/Contact" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@id/Name"
+		android:textSize="@dimen/normal_text" android:textColor="@color/white" />
+
+</RelativeLayout>
