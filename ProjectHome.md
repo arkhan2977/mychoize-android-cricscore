@@ -1,0 +1,1 @@
+A simple android application which is capable of showing live score in full score as well as home screen gadgets. It will also display notification and toasts.
